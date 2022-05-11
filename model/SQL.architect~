@@ -120,34 +120,37 @@
     <column id="COL30" populated="true" UUID="2c3f2776-af03-4a65-8a86-c343aa1d1b59" autoIncrement="false" autoIncrementSequenceName="license_commit_note_seq" defaultValue="" name="commit_note" nullable="0" physicalName="commit_note" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
+    <column id="COL31" populated="true" UUID="4d4d5c88-6d57-446c-a874-999a5c58d933" autoIncrement="false" autoIncrementSequenceName="license_note_seq" defaultValue="" name="note" nullable="1" physicalName="note" precision="120" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
     </folder>
     <folder id="FOLTAB233" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
     <folder id="FOLTAB232" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB234" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX31" populated="true" UUID="d0ee5525-54be-4fa0-97cc-35b9aaa2255c" clustered="false" name="license_pk" physicalName="license_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC32" populated="true" UUID="0de8c26e-93e9-4db4-b6c4-9c0c517652c7" ascendingOrDescending="UNSPECIFIED" column-ref="COL24" name="id" physicalName="id" />
+    <index id="IDX32" populated="true" UUID="d0ee5525-54be-4fa0-97cc-35b9aaa2255c" clustered="false" name="license_pk" physicalName="license_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC33" populated="true" UUID="0de8c26e-93e9-4db4-b6c4-9c0c517652c7" ascendingOrDescending="UNSPECIFIED" column-ref="COL24" name="id" physicalName="id" />
     </index>
    </folder>
   </table>
-  <table id="TAB33" populated="true" UUID="ac30ebc4-87e0-4f00-a07f-03dbaef7992e" name="situation" objectType="TABLE" physicalName="situation" >
+  <table id="TAB34" populated="true" UUID="ac30ebc4-87e0-4f00-a07f-03dbaef7992e" name="situation" objectType="TABLE" physicalName="situation" >
    <remarks></remarks>
-   <folder id="FOLTAB331" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL34" populated="true" UUID="7da090a5-0ac5-44cb-acbc-2486ccb5abf3" autoIncrement="true" autoIncrementSequenceName="situation_id_seq" defaultValue="" name="id" nullable="0" physicalName="id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+   <folder id="FOLTAB341" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL35" populated="true" UUID="7da090a5-0ac5-44cb-acbc-2486ccb5abf3" autoIncrement="true" autoIncrementSequenceName="situation_id_seq" defaultValue="" name="id" nullable="0" physicalName="id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL35" populated="true" UUID="d02656c7-a86e-41e6-9dca-45024f461a69" autoIncrement="false" autoIncrementSequenceName="situation_description_seq" defaultValue="" name="description" nullable="0" physicalName="description" precision="90" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL36" populated="true" UUID="d02656c7-a86e-41e6-9dca-45024f461a69" autoIncrement="false" autoIncrementSequenceName="situation_description_seq" defaultValue="" name="description" nullable="0" physicalName="description" precision="90" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     </folder>
-    <folder id="FOLTAB333" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    <folder id="FOLTAB343" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
-    <folder id="FOLTAB332" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    <folder id="FOLTAB342" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
-    <folder id="FOLTAB334" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX36" populated="true" UUID="facf9822-74e5-4190-a92b-3664382656ff" clustered="false" name="situation_pk" physicalName="type_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC37" populated="true" UUID="e7e14b21-fdb8-4d95-890b-ca20e0ce37a8" ascendingOrDescending="UNSPECIFIED" column-ref="COL34" name="id" physicalName="id" />
+    <folder id="FOLTAB344" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX37" populated="true" UUID="facf9822-74e5-4190-a92b-3664382656ff" clustered="false" name="situation_pk" physicalName="type_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC38" populated="true" UUID="e7e14b21-fdb8-4d95-890b-ca20e0ce37a8" ascendingOrDescending="UNSPECIFIED" column-ref="COL35" name="id" physicalName="id" />
     </index>
    </folder>
   </table>
@@ -162,8 +165,8 @@
   <table-pane table-ref="TAB8" x="827" y="582" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB13" x="547" y="581" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB18" x="1126" y="584" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB23" x="465" y="238" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB33" x="1230" y="299" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB23" x="475" y="227" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB34" x="1230" y="299" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">
