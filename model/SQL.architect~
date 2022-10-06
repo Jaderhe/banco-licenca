@@ -165,37 +165,37 @@
     </index>
    </folder>
   </table>
-  <table id="TAB46" populated="true" UUID="3c1c9d39-245d-4836-9f99-8a551ceb478f" name="user" objectType="TABLE" physicalName="user" >
+  <table id="TAB46" populated="true" UUID="3c1c9d39-245d-4836-9f99-8a551ceb478f" name="users" objectType="TABLE" physicalName="users" >
    <remarks></remarks>
    <folder id="FOLTAB461" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL47" populated="true" UUID="69ad72a4-3155-46b7-8334-8802b3402f82" autoIncrement="true" autoIncrementSequenceName="user_user_id_seq" defaultValue="" name="user_id" nullable="0" physicalName="user_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL47" populated="true" UUID="69ad72a4-3155-46b7-8334-8802b3402f82" autoIncrement="true" autoIncrementSequenceName="users_user_id_seq" defaultValue="" name="user_id" nullable="0" physicalName="user_id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL48" populated="true" UUID="73d465d3-b841-452b-9895-d073e4797dd3" autoIncrement="false" autoIncrementSequenceName="user_name_seq" defaultValue="" name="name" nullable="0" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL48" populated="true" UUID="73d465d3-b841-452b-9895-d073e4797dd3" autoIncrement="false" autoIncrementSequenceName="users_name_seq" defaultValue="" name="name" nullable="0" physicalName="name" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL49" populated="true" UUID="f7ad89eb-ebeb-463c-9d6a-2904e5b0beff" autoIncrement="false" autoIncrementSequenceName="user_email_seq" defaultValue="" name="email" nullable="1" physicalName="email" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL49" populated="true" UUID="f7ad89eb-ebeb-463c-9d6a-2904e5b0beff" autoIncrement="false" autoIncrementSequenceName="users_email_seq" defaultValue="" name="email" nullable="1" physicalName="email" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL50" populated="true" UUID="9fa8191f-42d9-4b0a-90d5-5c14f7c49f84" autoIncrement="false" autoIncrementSequenceName="user_password_seq" defaultValue="" name="password" nullable="0" physicalName="password" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL50" populated="true" UUID="9fa8191f-42d9-4b0a-90d5-5c14f7c49f84" autoIncrement="false" autoIncrementSequenceName="users_password_seq" defaultValue="" name="password" nullable="0" physicalName="password" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL51" populated="true" UUID="c49117b6-23d0-4015-bf77-b175ed162673" autoIncrement="false" defaultValue="" name="isactive" nullable="0" physicalName="isactive" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="16" userDefinedTypeUUID="a26374aa-3026-4bb8-b564-eb2e186dfa5d" >
      <remarks></remarks>
     </column>
-    <column id="COL52" populated="true" UUID="7bfe51eb-1dc5-4eee-99ba-db1a19067da8" autoIncrement="false" autoIncrementSequenceName="user_permission_seq" defaultValue="" name="permission" nullable="0" physicalName="permission" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL52" populated="true" UUID="7bfe51eb-1dc5-4eee-99ba-db1a19067da8" autoIncrement="false" autoIncrementSequenceName="users_permission_seq" defaultValue="" name="permission" nullable="0" physicalName="permission" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>administrador operador</remarks>
     </column>
-    <column id="COL53" populated="true" UUID="4c2b7bea-8aae-4e36-b325-17c9dfe60fd7" autoIncrement="false" autoIncrementSequenceName="user_lastlogin_seq" defaultValue="" name="lastlogin" nullable="1" physicalName="lastlogin" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+    <column id="COL53" populated="true" UUID="4c2b7bea-8aae-4e36-b325-17c9dfe60fd7" autoIncrement="false" autoIncrementSequenceName="users_lastlogin_seq" defaultValue="" name="lastlogin" nullable="1" physicalName="lastlogin" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
      <remarks></remarks>
     </column>
-    <column id="COL54" populated="true" UUID="511611ab-4d16-4ef7-8946-d8c53e4dad20" autoIncrement="false" autoIncrementSequenceName="user_created_at_seq" defaultValue="" name="created_at" nullable="0" physicalName="created_at" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+    <column id="COL54" populated="true" UUID="511611ab-4d16-4ef7-8946-d8c53e4dad20" autoIncrement="false" autoIncrementSequenceName="users_created_at_seq" defaultValue="" name="created_at" nullable="0" physicalName="created_at" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
      <remarks></remarks>
     </column>
-    <column id="COL55" populated="true" UUID="ec347ebf-0681-44a6-9f18-6d677619d6ac" autoIncrement="false" autoIncrementSequenceName="user_updated_at_seq" defaultValue="" name="updated_at" nullable="0" physicalName="updated_at" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+    <column id="COL55" populated="true" UUID="ec347ebf-0681-44a6-9f18-6d677619d6ac" autoIncrement="false" autoIncrementSequenceName="users_updated_at_seq" defaultValue="" name="updated_at" nullable="0" physicalName="updated_at" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
      <remarks></remarks>
     </column>
-    <column id="COL56" populated="true" UUID="9271f0be-2d65-4973-9aee-412ca4d0ba9d" autoIncrement="false" autoIncrementSequenceName="user_user_id_seq" defaultValue="" name="user_id" nullable="0" physicalName="user_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL56" populated="true" UUID="9271f0be-2d65-4973-9aee-412ca4d0ba9d" autoIncrement="false" autoIncrementSequenceName="users_user_id_seq" defaultValue="" name="user_id" nullable="0" physicalName="user_id" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     </folder>
@@ -204,7 +204,7 @@
     <folder id="FOLTAB462" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB464" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX57" populated="true" UUID="08e0fe5a-27e5-4d67-b854-a01cedf71ee9" clustered="false" name="user_pk" physicalName="user_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX57" populated="true" UUID="08e0fe5a-27e5-4d67-b854-a01cedf71ee9" clustered="false" name="users_pk" physicalName="user_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC58" populated="true" UUID="db8aaffa-4546-4d86-b93e-17dd0e2671e8" ascendingOrDescending="UNSPECIFIED" column-ref="COL47" name="user_id" physicalName="user_id" />
     </index>
    </folder>

@@ -10,3 +10,892 @@
 1284 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Beginning to read/merge new pl.ini data
 1310 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Finished reading file.
 7439 [Thread-5] ERROR ca.sqlpower.architect.swingui.action.CheckForUpdateAction  - Fail to retrieve current version number!
+84917856 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property physicalName changed while monitoring pkTable
+84917905 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+84917907 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown UserDefinedSQLType property myAutoIncrement changed while monitoring pkTable
+84917907 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+85117448 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+85263297 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property physicalName changed while monitoring pkTable
+85263298 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+85263300 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+85271953 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property physicalName changed while monitoring pkTable
+85271965 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+85271973 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+85277892 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property physicalName changed while monitoring pkTable
+85277901 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+85308674 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+85308686 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+85308701 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+85308701 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+85309146 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+85309147 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+85309148 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+85954458 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+85962082 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown UserDefinedSQLType property myAutoIncrement changed while monitoring pkTable
+85973397 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+86497452 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type userdefinedsqltype
+86891147 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.DBTree  - DBTree: exporting list of DnD-type tree paths
+86945167 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+86945167 [AWT-EventQueue-0] INFO  ca.sqlpower.object.undo.PropertyChangeEdit  - Found setter: setLengths
+87012058 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87020906 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87031326 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87117118 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property physicalName changed while monitoring pkTable
+87117119 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+87132188 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+87494827 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87497253 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87499298 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87528918 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87532563 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87537592 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87645907 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87647281 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+87805601 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@84cf79d]
+102080649 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080651 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080651 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080651 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080669 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080680 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080680 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080681 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080681 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080681 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+102080740 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+CREATE SEQUENCE public.user_user_id_seq_4
+102080769 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.user_1 (
+                user_id INTEGER NOT NULL DEFAULT nextval('public.user_user_id_seq_4'),
+                name VARCHAR(50) NOT NULL,
+                email VARCHAR(200),
+                password VARCHAR(200) NOT NULL,
+                isactive BOOLEAN NOT NULL,
+                permission VARCHAR(20) NOT NULL,
+                lastlogin TIMESTAMP,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id_1 INTEGER NOT NULL,
+                CONSTRAINT user_1_pk PRIMARY KEY (user_id)
+)
+102080769 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.user_1.permission IS 'administrador operador'
+102080769 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.user_user_id_seq_4 OWNED BY public.user_1.user_id
+102080770 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.organ_organ_id_seq
+102080770 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.organ (
+                organ_id INTEGER NOT NULL DEFAULT nextval('public.organ_organ_id_seq'),
+                name VARCHAR(90) NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT organ_pk PRIMARY KEY (organ_id)
+)
+102080770 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON TABLE public.organ IS 'secretaria'
+102080771 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.organ_organ_id_seq OWNED BY public.organ.organ_id
+102080771 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.software_software_id_seq
+102080771 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.software (
+                software_id INTEGER NOT NULL DEFAULT nextval('public.software_software_id_seq'),
+                name VARCHAR(90) NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT software_pk PRIMARY KEY (software_id)
+)
+102080772 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.software_software_id_seq OWNED BY public.software.software_id
+102080772 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.provider_provider_id_seq
+102080772 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.provider (
+                provider_id INTEGER NOT NULL DEFAULT nextval('public.provider_provider_id_seq'),
+                company_name VARCHAR(90) NOT NULL,
+                cnpj VARCHAR(14) NOT NULL,
+                contact VARCHAR(90),
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT provider_pk PRIMARY KEY (provider_id)
+)
+102080772 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.provider_provider_id_seq OWNED BY public.provider.provider_id
+102080772 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.license_license_id_seq
+102080773 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.license (
+                license_id INTEGER NOT NULL DEFAULT nextval('public.license_license_id_seq'),
+                serial_key VARCHAR(90) NOT NULL,
+                linked VARCHAR(90) NOT NULL,
+                purchase DATE NOT NULL,
+                expiration DATE NOT NULL,
+                invoice VARCHAR(15) NOT NULL,
+                commit_note VARCHAR(20) NOT NULL,
+                note VARCHAR(120),
+                situation OTHER NOT NULL,
+                type OTHER NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                provider_id INTEGER NOT NULL,
+                software_id INTEGER NOT NULL,
+                organ_id INTEGER NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT license_pk PRIMARY KEY (license_id)
+)
+102080773 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.linked IS 'VINCULAÇÃO À UM USER (USUÁRIO, PC)'
+102080773 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.note IS 'OBSERVAÇÃO'
+102080773 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.situation IS 'CREATE TYPE situation AS ENUM (''Livre'', ''Uso'');'
+102080773 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.type IS 'CREATE TYPE type AS ENUM (''Vitalícia'', ''Inscrição'');'
+102080773 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.license_license_id_seq OWNED BY public.license.license_id
+102080784 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.user_1 ADD CONSTRAINT user_user_fk
+FOREIGN KEY (user_id_1)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+102080785 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT user_license_fk
+FOREIGN KEY (user_id)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+102080785 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.provider ADD CONSTRAINT user_provider_fk
+FOREIGN KEY (user_id)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+102080785 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.software ADD CONSTRAINT user_software_fk
+FOREIGN KEY (user_id)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+102080785 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.organ ADD CONSTRAINT user_organ_fk
+FOREIGN KEY (user_id)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+102080785 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT secretary_license_fk
+FOREIGN KEY (organ_id)
+REFERENCES public.organ (organ_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+102080786 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT software_license_fk
+FOREIGN KEY (software_id)
+REFERENCES public.software (software_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+102080786 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT provider_license_fk
+FOREIGN KEY (provider_id)
+REFERENCES public.provider (provider_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+102080807 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.SQLScriptDialog  - The list size is :29
+103321277 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+CREATE SEQUENCE public.user_user_id_seq_4
+103321278 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.user_1 (
+                user_id INTEGER NOT NULL DEFAULT nextval('public.user_user_id_seq_4'),
+                name VARCHAR(50) NOT NULL,
+                email VARCHAR(200),
+                password VARCHAR(200) NOT NULL,
+                isactive BOOLEAN NOT NULL,
+                permission VARCHAR(20) NOT NULL,
+                lastlogin TIMESTAMP,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id_1 INTEGER NOT NULL,
+                CONSTRAINT user_1_pk PRIMARY KEY (user_id)
+)
+103321278 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.user_1.permission IS 'administrador operador'
+103321278 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.user_user_id_seq_4 OWNED BY public.user_1.user_id
+103321279 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.organ_organ_id_seq
+103321279 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.organ (
+                organ_id INTEGER NOT NULL DEFAULT nextval('public.organ_organ_id_seq'),
+                name VARCHAR(90) NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT organ_pk PRIMARY KEY (organ_id)
+)
+103321279 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON TABLE public.organ IS 'secretaria'
+103321279 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.organ_organ_id_seq OWNED BY public.organ.organ_id
+103321279 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.software_software_id_seq
+103321279 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.software (
+                software_id INTEGER NOT NULL DEFAULT nextval('public.software_software_id_seq'),
+                name VARCHAR(90) NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT software_pk PRIMARY KEY (software_id)
+)
+103321280 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.software_software_id_seq OWNED BY public.software.software_id
+103321280 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.provider_provider_id_seq
+103321280 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.provider (
+                provider_id INTEGER NOT NULL DEFAULT nextval('public.provider_provider_id_seq'),
+                company_name VARCHAR(90) NOT NULL,
+                cnpj VARCHAR(14) NOT NULL,
+                contact VARCHAR(90),
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT provider_pk PRIMARY KEY (provider_id)
+)
+103321291 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.provider_provider_id_seq OWNED BY public.provider.provider_id
+103321291 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.license_license_id_seq
+103321297 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.license (
+                license_id INTEGER NOT NULL DEFAULT nextval('public.license_license_id_seq'),
+                serial_key VARCHAR(90) NOT NULL,
+                linked VARCHAR(90) NOT NULL,
+                purchase DATE NOT NULL,
+                expiration DATE NOT NULL,
+                invoice VARCHAR(15) NOT NULL,
+                commit_note VARCHAR(20) NOT NULL,
+                note VARCHAR(120),
+                situation OTHER NOT NULL,
+                type OTHER NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                provider_id INTEGER NOT NULL,
+                software_id INTEGER NOT NULL,
+                organ_id INTEGER NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT license_pk PRIMARY KEY (license_id)
+)
+103321297 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.linked IS 'VINCULAÇÃO À UM USER (USUÁRIO, PC)'
+103321297 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.note IS 'OBSERVAÇÃO'
+103321298 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.situation IS 'CREATE TYPE situation AS ENUM (''Livre'', ''Uso'');'
+103321298 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.type IS 'CREATE TYPE type AS ENUM (''Vitalícia'', ''Inscrição'');'
+103321298 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.license_license_id_seq OWNED BY public.license.license_id
+103321298 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.user_1 ADD CONSTRAINT user_user_fk
+FOREIGN KEY (user_id_1)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+103321298 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT user_license_fk
+FOREIGN KEY (user_id)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+103321298 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.provider ADD CONSTRAINT user_provider_fk
+FOREIGN KEY (user_id)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+103321299 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.software ADD CONSTRAINT user_software_fk
+FOREIGN KEY (user_id)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+103321299 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.organ ADD CONSTRAINT user_organ_fk
+FOREIGN KEY (user_id)
+REFERENCES public.user_1 (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+103321299 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT secretary_license_fk
+FOREIGN KEY (organ_id)
+REFERENCES public.organ (organ_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+103321299 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT software_license_fk
+FOREIGN KEY (software_id)
+REFERENCES public.software (software_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+103321300 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT provider_license_fk
+FOREIGN KEY (provider_id)
+REFERENCES public.provider (provider_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+103321300 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.SQLScriptDialog  - The list size is :29
+105044968 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105044968 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105044968 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105044969 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105044969 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105109004 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105109004 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105109004 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105109004 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105109005 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105125224 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105125229 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105125229 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105125229 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105125229 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105229120 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105229120 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105229120 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105229120 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105229120 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+105233829 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+CREATE SEQUENCE public.users_user_id_seq
+105233829 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.users (
+                user_id INTEGER NOT NULL DEFAULT nextval('public.users_user_id_seq'),
+                name VARCHAR(50) NOT NULL,
+                email VARCHAR(200),
+                password VARCHAR(200) NOT NULL,
+                isactive BOOLEAN NOT NULL,
+                permission VARCHAR(20) NOT NULL,
+                lastlogin TIMESTAMP,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id_1 INTEGER NOT NULL,
+                CONSTRAINT users_pk PRIMARY KEY (user_id)
+)
+105233829 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.users.permission IS 'administrador operador'
+105233829 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.users_user_id_seq OWNED BY public.users.user_id
+105233830 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.organ_organ_id_seq
+105233830 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.organ (
+                organ_id INTEGER NOT NULL DEFAULT nextval('public.organ_organ_id_seq'),
+                name VARCHAR(90) NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT organ_pk PRIMARY KEY (organ_id)
+)
+105233830 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON TABLE public.organ IS 'secretaria'
+105233830 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.organ_organ_id_seq OWNED BY public.organ.organ_id
+105233830 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.software_software_id_seq
+105233830 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.software (
+                software_id INTEGER NOT NULL DEFAULT nextval('public.software_software_id_seq'),
+                name VARCHAR(90) NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT software_pk PRIMARY KEY (software_id)
+)
+105233835 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.software_software_id_seq OWNED BY public.software.software_id
+105233836 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.provider_provider_id_seq
+105233836 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.provider (
+                provider_id INTEGER NOT NULL DEFAULT nextval('public.provider_provider_id_seq'),
+                company_name VARCHAR(90) NOT NULL,
+                cnpj VARCHAR(14) NOT NULL,
+                contact VARCHAR(90),
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT provider_pk PRIMARY KEY (provider_id)
+)
+105233836 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.provider_provider_id_seq OWNED BY public.provider.provider_id
+105233855 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE SEQUENCE public.license_license_id_seq
+105233855 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+CREATE TABLE public.license (
+                license_id INTEGER NOT NULL DEFAULT nextval('public.license_license_id_seq'),
+                serial_key VARCHAR(90) NOT NULL,
+                linked VARCHAR(90) NOT NULL,
+                purchase DATE NOT NULL,
+                expiration DATE NOT NULL,
+                invoice VARCHAR(15) NOT NULL,
+                commit_note VARCHAR(20) NOT NULL,
+                note VARCHAR(120),
+                situation OTHER NOT NULL,
+                type OTHER NOT NULL,
+                created_at TIMESTAMP NOT NULL,
+                updated_at TIMESTAMP NOT NULL,
+                provider_id INTEGER NOT NULL,
+                software_id INTEGER NOT NULL,
+                organ_id INTEGER NOT NULL,
+                user_id INTEGER NOT NULL,
+                CONSTRAINT license_pk PRIMARY KEY (license_id)
+)
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.linked IS 'VINCULAÇÃO À UM USER (USUÁRIO, PC)'
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.note IS 'OBSERVAÇÃO'
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.situation IS 'CREATE TYPE situation AS ENUM (''Livre'', ''Uso'');'
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+COMMENT ON COLUMN public.license.type IS 'CREATE TYPE type AS ENUM (''Vitalícia'', ''Inscrição'');'
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER SEQUENCE public.license_license_id_seq OWNED BY public.license.license_id
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.users ADD CONSTRAINT user_user_fk
+FOREIGN KEY (user_id_1)
+REFERENCES public.users (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT user_license_fk
+FOREIGN KEY (user_id)
+REFERENCES public.users (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.provider ADD CONSTRAINT user_provider_fk
+FOREIGN KEY (user_id)
+REFERENCES public.users (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+105233856 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.software ADD CONSTRAINT user_software_fk
+FOREIGN KEY (user_id)
+REFERENCES public.users (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+105233857 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.organ ADD CONSTRAINT user_organ_fk
+FOREIGN KEY (user_id)
+REFERENCES public.users (user_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+105233857 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT secretary_license_fk
+FOREIGN KEY (organ_id)
+REFERENCES public.organ (organ_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+105233861 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT software_license_fk
+FOREIGN KEY (software_id)
+REFERENCES public.software (software_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+105233862 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+ALTER TABLE public.license ADD CONSTRAINT provider_license_fk
+FOREIGN KEY (provider_id)
+REFERENCES public.provider (provider_id)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE
+105233862 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.SQLScriptDialog  - The list size is :29
+106843186 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.KettleDataSourceOptionsPanel  -  The map is: {}
+106847749 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.KettleDataSourceOptionsPanel  -  The map is: {}
+106858033 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.KettleDataSourceOptionsPanel  -  The map is: {Hostname=, Port=5432, Database=}
+106858046 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.KettleDataSourceOptionsPanel  -  The map is: {Hostname=, Port=5432, Database=}
+106872008 [AWT-EventQueue-0] WARN  ca.sqlpower.sql.JDBCDataSource  - Couldn't find built-in system resource "postgresql-8.2-506.jdbc3.jar". Skipping it.
+106872047 [AWT-EventQueue-0] WARN  ca.sqlpower.sql.JDBCDataSource  - Driver Class not found
+java.lang.ClassNotFoundException: Could not locate class org.postgresql.Driver in any of the JDBC Driver JAR files: [builtin:postgresql-8.2-506.jdbc3.jar]
+	at ca.sqlpower.sql.JDBCDataSourceType$JDBCClassLoader.findClass(JDBCDataSourceType.java:239)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at ca.sqlpower.sql.JDBCDataSource.createConnection(JDBCDataSource.java:274)
+	at ca.sqlpower.swingui.JDBCDataSourcePanel$1.actionPerformed(JDBCDataSourcePanel.java:168)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+107009585 [AWT-EventQueue-0] WARN  ca.sqlpower.sql.JDBCDataSource  - Couldn't find built-in system resource "postgresql-8.2-506.jdbc3.jar". Skipping it.
+107009585 [AWT-EventQueue-0] WARN  ca.sqlpower.sql.JDBCDataSource  - Driver Class not found
+java.lang.ClassNotFoundException: Could not locate class org.postgresql.Driver in any of the JDBC Driver JAR files: [builtin:postgresql-8.2-506.jdbc3.jar]
+	at ca.sqlpower.sql.JDBCDataSourceType$JDBCClassLoader.findClass(JDBCDataSourceType.java:239)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at ca.sqlpower.sql.JDBCDataSource.createConnection(JDBCDataSource.java:274)
+	at ca.sqlpower.swingui.JDBCDataSourcePanel$1.actionPerformed(JDBCDataSourcePanel.java:168)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+107026564 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.KettleDataSourceOptionsPanel  -  The map is: {}
+107032709 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.KettleDataSourceOptionsPanel  -  The map is: {Hostname=, Port=5432, Database=}
+107032711 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.KettleDataSourceOptionsPanel  -  The map is: {Hostname=, Port=5432, Database=}
+107041075 [AWT-EventQueue-0] WARN  ca.sqlpower.sql.JDBCDataSource  - Couldn't find built-in system resource "postgresql-8.2-506.jdbc3.jar". Skipping it.
+107041076 [AWT-EventQueue-0] WARN  ca.sqlpower.sql.JDBCDataSource  - Driver Class not found
+java.lang.ClassNotFoundException: Could not locate class org.postgresql.Driver in any of the JDBC Driver JAR files: [builtin:postgresql-8.2-506.jdbc3.jar]
+	at ca.sqlpower.sql.JDBCDataSourceType$JDBCClassLoader.findClass(JDBCDataSourceType.java:239)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at ca.sqlpower.sql.JDBCDataSource.createConnection(JDBCDataSource.java:274)
+	at ca.sqlpower.swingui.JDBCDataSourcePanel$1.actionPerformed(JDBCDataSourcePanel.java:168)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+107064535 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.KettleDataSourceOptionsPanel  -  The map is: {}
+107071087 [Thread-7] WARN  ca.sqlpower.sql.JDBCDataSource  - Couldn't find built-in system resource "postgresql-8.2-506.jdbc3.jar". Skipping it.
+107088606 [Thread-8] INFO  ca.sqlpower.util.JarScanClassLoader  - Found jdbc driver org.postgresql.Driver
+107091261 [Thread-8] WARN  ca.sqlpower.util.JarScanClassLoader  - JAR does not contain dependency needed by: org/postgresql/osgi/PGBundleActivator.class
+107091262 [Thread-8] WARN  ca.sqlpower.util.JarScanClassLoader  - JAR does not contain dependency needed by: org/postgresql/osgi/PGDataSourceFactory.class
+107091277 [Thread-8] WARN  ca.sqlpower.util.JarScanClassLoader  - JAR does not contain dependency needed by: org/postgresql/sspi/NTDSAPI.class
+107091300 [Thread-8] INFO  ca.sqlpower.swingui.db.JDBCDriverPanel  - Found drivers: [org.postgresql.Driver]
+107100591 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.JDBCDataSource  - Driver Class org.postgresql.Driver loaded without exception
+107111395 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.JDBCDataSource  - Driver Class org.postgresql.Driver loaded without exception
+107111857 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.JDBCDataSource  - Driver Class org.postgresql.Driver loaded without exception
+107113721 [PokeDB: LicenseDB] INFO  ca.sqlpower.sql.JDBCDataSource  - Driver Class org.postgresql.Driver loaded without exception
+107115156 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.DBTree  - Drag gesture event: java.awt.dnd.DragGestureEvent[source=sun.awt.windows.WMouseDragGestureRecognizer@7cc33f16]
+107115156 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.DBTree  - DBTree: exporting list of DnD-type tree paths
+107115373 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@4d2bcfb6]
+107115375 [Objects-Adder] INFO  ca.sqlpower.architect.swingui.PlayPen  - AddObjectsTask starting on thread Objects-Adder
+107115866 [Objects-Adder] INFO  ca.sqlpower.architect.swingui.PlayPen  - AddObjectsTask done
+107115879 [AWT-EventQueue-0] ERROR ca.sqlpower.architect.swingui.PlayPen  - Unknown object dropped in PlayPen: LicenseDB
+107125403 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.DBTree  - Drag gesture event: java.awt.dnd.DragGestureEvent[source=sun.awt.windows.WMouseDragGestureRecognizer@7cc33f16]
+107125403 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.DBTree  - DBTree: exporting list of DnD-type tree paths
+107125683 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@4d2bcfb6]
+107125684 [Objects-Adder] INFO  ca.sqlpower.architect.swingui.PlayPen  - AddObjectsTask starting on thread Objects-Adder
+107125688 [Objects-Adder] INFO  ca.sqlpower.architect.swingui.PlayPen  - AddObjectsTask done
+107125706 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - adding table flyway_schema_history (TABLE)
+107125715 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - adding table license (TABLE)
+107125716 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table license in playpen
+107125716 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - NOT FOUND
+107125716 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table license in playpen
+107125716 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - NOT FOUND
+107125716 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table license in playpen
+107125716 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - NOT FOUND
+107125716 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table license in playpen
+107125716 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - NOT FOUND
+107125723 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - adding table organ (TABLE)
+107125723 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table license in playpen
+107125723 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - FOUND IT!
+107125724 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table organ in playpen
+107125724 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - NOT FOUND
+107125732 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - adding table provider (TABLE)
+107125732 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table license in playpen
+107125732 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - FOUND IT!
+107125733 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table provider in playpen
+107125733 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - NOT FOUND
+107125741 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - adding table software (TABLE)
+107125741 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table license in playpen
+107125741 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - FOUND IT!
+107125742 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table software in playpen
+107125742 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - NOT FOUND
+107125751 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - adding table users (TABLE)
+107125751 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table license in playpen
+107125751 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - FOUND IT!
+107125752 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table organ in playpen
+107125752 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - FOUND IT!
+107125752 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table provider in playpen
+107125752 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - FOUND IT!
+107125753 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table software in playpen
+107125753 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - FOUND IT!
+107125754 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Looking for fk table users in playpen
+107125754 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - FOUND IT!
+107125755 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125756 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125757 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125758 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125758 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125758 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125759 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125760 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125762 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125763 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type bool
+107125764 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type serial
+107125765 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125766 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125767 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type date
+107125767 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type date
+107125768 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125768 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125769 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125769 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type situation
+107125770 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type type
+107125771 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125771 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125772 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125773 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125774 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125774 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125776 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type serial
+107125777 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+107125777 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125778 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125778 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125779 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125779 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type serial
+107125780 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+107125780 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125780 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125781 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125781 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125781 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125782 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125783 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type serial
+107125783 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+107125783 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125784 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125784 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125785 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type int4
+107125785 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type serial
+107125787 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+107125787 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+107125787 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+107125787 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+107125787 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+107125787 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125788 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125788 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125789 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type bool
+107125790 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type varchar
+107125790 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125792 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107125793 [AWT-EventQueue-0] INFO  ca.sqlpower.sqlobject.SQLColumn  - Column has type timestamp
+107156322 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPen  - Drop: I am over dtde=java.awt.dnd.DropTargetDropEvent[source=java.awt.dnd.DropTarget@4d2bcfb6]
+0    [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ArchitectUtils  - Log4J configured successfully
+829  [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Beginning to read/merge new pl.ini data
+884  [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Finished reading file.
+884  [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Beginning to read/merge new pl.ini data
+912  [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Finished reading file.
+6585 [Thread-5] ERROR ca.sqlpower.architect.swingui.action.CheckForUpdateAction  - Fail to retrieve current version number!
+52973 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+52973 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+52974 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+52974 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+52974 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown column property autoIncrementSequenceName changed while monitoring pkTable
+56506 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+56507 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+56507 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+56508 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
+56508 [AWT-EventQueue-0] WARN  ca.sqlpower.sqlobject.ForeignKeyColumnUpdaterPoolingSPListener  - Warning: unknown SQLTypePhysicalProperties property name changed while monitoring pkTable
