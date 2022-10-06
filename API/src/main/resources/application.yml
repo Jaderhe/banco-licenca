@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/LicenseDB?currentSchema=public
+    password: ${DB_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+
+
+#  flyway:
+#   url: jdbc:postgresql://localhost:5432/LicenseDB
+#    user: ${spring.datasource.username}
+#    password: ${spring.datasource.password}
+#    baseline-on-migrate: true
