@@ -1,4 +1,4 @@
-package br.gov.pr.toledo.API
+package br.gov.pr.toledo.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

@@ -1,11 +1,12 @@
-package br.gov.pr.toledo.API.domain.license.model
+package br.gov.pr.toledo.api.domain.license.model
 
 import javax.persistence.*
-import javax.persistence.Entity
 
 @Entity
+@Table(name = "license")
 class License (
     @EmbeddedId
+    @Column(name = "license_id")
     val idLicense: IdLicense
         ) {
 }

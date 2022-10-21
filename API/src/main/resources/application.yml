@@ -5,6 +5,9 @@ spring:
     password: ${DB_PASSWORD}
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    hibernate:
+      ddl-auto: validate
+
   flyway:
     url: jdbc:postgresql://localhost:5432/LicenseDB
     user: ${spring.datasource.username}

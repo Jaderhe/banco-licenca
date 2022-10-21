@@ -1,4 +1,4 @@
-package br.gov.pr.toledo.API
+package br.gov.pr.toledo.api
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
