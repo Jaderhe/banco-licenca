@@ -6,4 +6,4 @@ import java.util.*
 import javax.persistence.Embeddable
 
 @Embeddable
-data class IdSoftware(@field:JsonValue var id: UUID = UUID.randomUUID()) : Serializable
+data class IdSoftware(@field:JsonValue var software_id: Int) : Serializable

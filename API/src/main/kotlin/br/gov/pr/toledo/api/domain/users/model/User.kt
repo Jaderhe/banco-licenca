@@ -23,11 +23,11 @@ class User (
     val isActive: Boolean,
     @Column(name = "permission", nullable = false)
     val permission: String,
-    @Column(name = "lastlogin", nullable = true)
+    @Column(name = "lastlogin", nullable = true, columnDefinition = "TIMESTAMP")
     val lastlogin: LocalDate,
-    @Column(name = "created_at", nullable = false)
+    @Column(name = "created_at", nullable = false, columnDefinition = "TIMESTAMP")
     val createdAt: LocalDate,
-    @Column(name = "updated_at", nullable = false)
+    @Column(name = "updated_at", nullable = false, columnDefinition = "TIMESTAMP")
     val updatedAt: LocalDate,
     @Column(name = "username", nullable = false)
     val username: String,
@@ -38,7 +38,8 @@ class User (
     val userId1: User,
 
     //Auto-relationship with User
-    @OneToMany(mappedBy = "userId1", cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
+    @OneToMany(/*mappedBy = "userId1", */cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", referencedColumnName = "user_id_1")
     val users: Collection<User>,
 
     @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)

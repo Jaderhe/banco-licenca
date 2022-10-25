@@ -17,9 +17,9 @@ class Provider (
     val cnpj: String,
     @Column(name = "contact")
     val contact: String,
-    @Column(name = "created_at", nullable = false)
+    @Column(name = "created_at", nullable = false, columnDefinition = "TIMESTAMP")
     val createdAt: LocalDate,
-    @Column(name = "updated_at", nullable = false)
+    @Column(name = "updated_at", nullable = false, columnDefinition = "TIMESTAMP")
     val updatedAt: LocalDate,
 
     @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)

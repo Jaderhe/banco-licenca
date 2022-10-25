@@ -14,7 +14,7 @@ import javax.persistence.*
 class License (
     @EmbeddedId
     @Column(name = "license_id")
-    val idLicense: IdLicense,
+    val licenseId: IdLicense,
     @Column(name = "serial_key")
     val serialKey: String,
     @Column(name = "linked")
@@ -30,12 +30,14 @@ class License (
     @Column(name = "note")
     val note: String,
     @Column(name = "situation")
+    @Enumerated(EnumType.STRING)
     val situation: LicenseSituation = LicenseSituation.FREE,
     @Column(name = "type")
+    @Enumerated(EnumType.STRING)
     val type: LicenseType,
-    @Column(name = "created_at")
+    @Column(name = "created_at", columnDefinition = "TIMESTAMP")
     val createdAt: LocalDate,
-    @Column(name = "updated_at")
+    @Column(name = "updated_at", columnDefinition = "TIMESTAMP")
     val updatedAt: LocalDate,
 
     @ManyToOne
@@ -56,7 +58,7 @@ class License (
     ) {
 
     private fun license (
-        idLicense: IdLicense,
+        licenseId: IdLicense,
         serialKey: String,
         linked: String,
         purchase: LocalDate,
@@ -73,7 +75,7 @@ class License (
         organ: Organ,
         user: User
     ) = License(
-        idLicense,
+        licenseId,
         serialKey,
         linked,
         purchase,

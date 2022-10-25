@@ -13,9 +13,9 @@ class Organ (
     val organId: IdOrgan,
     @Column(name = "name", nullable = false)
     val name: String,
-    @Column(name = "created_at", nullable = false)
+    @Column(name = "created_at", nullable = false, columnDefinition = "TIMESTAMP")
     val createdAt: LocalDate,
-    @Column(name = "updated_at", nullable = false)
+    @Column(name = "updated_at", nullable = false, columnDefinition = "TIMESTAMP")
     val updatedAt: LocalDate,
 
     @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
