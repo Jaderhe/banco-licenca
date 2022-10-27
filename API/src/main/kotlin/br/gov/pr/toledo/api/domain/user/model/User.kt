@@ -1,9 +1,10 @@
-package br.gov.pr.toledo.api.domain.users.model
+package br.gov.pr.toledo.api.domain.user.model
 
 import br.gov.pr.toledo.api.domain.license.model.License
 import br.gov.pr.toledo.api.domain.organ.model.Organ
 import br.gov.pr.toledo.api.domain.provider.model.Provider
 import br.gov.pr.toledo.api.domain.software.model.Software
+import java.io.Serializable
 import java.time.LocalDate
 import javax.persistence.*
 
@@ -57,7 +58,7 @@ class User (
     @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     val licenses: Collection<License>,
-    ) {
+    ) : Serializable {
 
     private fun user (
         userId: IdUser,

@@ -5,7 +5,7 @@ import br.gov.pr.toledo.api.domain.license.valueobjects.LicenseType
 import br.gov.pr.toledo.api.domain.organ.model.Organ
 import br.gov.pr.toledo.api.domain.provider.model.Provider
 import br.gov.pr.toledo.api.domain.software.model.Software
-import br.gov.pr.toledo.api.domain.users.model.User
+import br.gov.pr.toledo.api.domain.user.model.User
 import java.time.LocalDate
 import javax.persistence.*
 

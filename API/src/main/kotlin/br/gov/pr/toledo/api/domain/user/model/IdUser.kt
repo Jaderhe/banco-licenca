@@ -1,8 +1,7 @@
-package br.gov.pr.toledo.api.domain.users.model
+package br.gov.pr.toledo.api.domain.user.model
 
 import com.fasterxml.jackson.annotation.JsonValue
 import java.io.Serializable
-import java.util.*
 import javax.persistence.Embeddable
 
 @Embeddable

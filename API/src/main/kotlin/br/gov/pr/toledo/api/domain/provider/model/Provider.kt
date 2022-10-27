@@ -1,7 +1,7 @@
 package br.gov.pr.toledo.api.domain.provider.model
 
 import br.gov.pr.toledo.api.domain.license.model.License
-import br.gov.pr.toledo.api.domain.users.model.User
+import br.gov.pr.toledo.api.domain.user.model.User
 import java.time.LocalDate
 import javax.persistence.*
 
