@@ -6,6 +6,7 @@ import br.gov.pr.toledo.api.domain.organ.model.Organ
 import br.gov.pr.toledo.api.domain.provider.model.Provider
 import br.gov.pr.toledo.api.domain.software.model.Software
 import br.gov.pr.toledo.api.domain.user.model.User
+import java.io.Serializable
 import java.time.LocalDate
 import javax.persistence.*
 
@@ -55,7 +56,7 @@ class License (
     @ManyToOne
     @JoinColumn(name = "user_id")
     val user: User
-    ) {
+    ) : Serializable {
 
     private fun license (
         licenseId: IdLicense,

@@ -2,6 +2,7 @@ package br.gov.pr.toledo.api.domain.organ.model
 
 import br.gov.pr.toledo.api.domain.license.model.License
 import br.gov.pr.toledo.api.domain.user.model.User
+import java.io.Serializable
 import java.time.LocalDate
 import javax.persistence.*
 
@@ -25,7 +26,7 @@ class Organ (
     @ManyToOne
     @JoinColumn(name = "user_id")
     val user: User
-    ) {
+    ) : Serializable {
 
     private fun organ (
         organId: IdOrgan,

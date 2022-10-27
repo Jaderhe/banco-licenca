@@ -2,6 +2,7 @@ package br.gov.pr.toledo.api.domain.software.model
 
 import br.gov.pr.toledo.api.domain.license.model.License
 import br.gov.pr.toledo.api.domain.user.model.User
+import java.io.Serializable
 import java.time.LocalDate
 import javax.persistence.*
 
@@ -26,7 +27,7 @@ class Software (
     @ManyToOne
     @JoinColumn(name = "user_id")
     val user: User
-    ) {
+    ) : Serializable {
 
     private fun software (
         softwareId: IdSoftware,
