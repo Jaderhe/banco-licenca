@@ -4,12 +4,14 @@ import br.gov.pr.toledo.api.domain.user.model.IdUser
 import br.gov.pr.toledo.api.domain.user.model.User
 import br.gov.pr.toledo.api.domain.user.repository.UserRepository
 import br.gov.pr.toledo.api.domain.user.service.UserService
+import br.gov.pr.toledo.api.domain.user.usecases.CreateUserUseCase
 import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
 import br.gov.pr.toledo.api.interfaces.rest.user.UserSummaryDTO
 import org.springframework.stereotype.Service
 
 @Service
 class UserServiceImpl (
+    //private val createUserUseCase: CreateUserUseCase,
     private val repository : UserRepository
     ) : UserService {
     override fun list(): List<User> = repository.findAll()
@@ -20,6 +22,10 @@ class UserServiceImpl (
 
     override fun findById(id: Int): UserDTO {
         return UserDTO.toDTO(findById(IdUser(id)))
+    }
+
+    override fun create(user: User): User {
+        return repository.save(user)
     }
 
 }

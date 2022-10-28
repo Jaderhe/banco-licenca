@@ -15,4 +15,8 @@ interface UserService {
 
     fun findById(id: Int): UserDTO
 
+    fun create(user: User): User
+
+    //fun create(user: UserDTO): UserDTO
+
 }
