@@ -3,6 +3,8 @@ package br.gov.pr.toledo.api.interfaces.rest.user
 import br.gov.pr.toledo.api.domain.user.model.IdUser
 import br.gov.pr.toledo.api.domain.user.model.User
 import br.gov.pr.toledo.api.domain.user.service.UserService
+import com.fasterxml.jackson.annotation.JsonIgnore
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import java.time.LocalDate
 
 data class UserDTO(
@@ -12,7 +14,7 @@ data class UserDTO(
     val isActive : Boolean,
     val permission : String,
     val username : String,
-    //val userId1 : User,
+    val userParent : Int,
     val createdAt : LocalDate,
     val updatedAt : LocalDate,
     val password : String
@@ -26,7 +28,7 @@ data class UserDTO(
             user.isActive,
             user.permission,
             user.username,
-            //user.userId1,
+            user.userParent,
             user.createdAt,
             user.updatedAt,
             user.password

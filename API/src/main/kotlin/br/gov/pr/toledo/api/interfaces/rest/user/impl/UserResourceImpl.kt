@@ -41,15 +41,14 @@ class UserResourceImpl (private val service : UserService) : UserResource {
     @ApiResponse(description = "ok.", responseCode = "201")
     @Operation(description = "Cria um novo usuário.")
     override fun create(@RequestBody user: User): ResponseEntity<Void> {
-        //val converter = Mappers.getMapper(UserMapper::class.java)
 
-        //val idNewUser
-
+        val userCreated : User = service.create(user)
         val uri = ServletUriComponentsBuilder.fromCurrentRequest()
             .path("/{id}")
-            .buildAndExpand(user.userId)
+            .buildAndExpand(userCreated.userId.user_id)
             .toUri()
 
         return ResponseEntity.created(uri).build()
+
     }
 }

@@ -5,6 +5,7 @@ spring:
     password: ${DB_PASSWORD}
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    show-sql: true
     hibernate:
       ddl-auto: validate
 
