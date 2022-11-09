@@ -4,11 +4,7 @@ import br.gov.pr.toledo.api.domain.license.model.License
 import br.gov.pr.toledo.api.domain.organ.model.Organ
 import br.gov.pr.toledo.api.domain.provider.model.Provider
 import br.gov.pr.toledo.api.domain.software.model.Software
-import com.fasterxml.jackson.annotation.JsonBackReference
-import com.fasterxml.jackson.annotation.JsonIgnore
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties
-import com.fasterxml.jackson.annotation.JsonManagedReference
-import com.fasterxml.jackson.annotation.JsonView
+import com.fasterxml.jackson.annotation.*
 import java.io.Serializable
 import java.time.LocalDate
 import javax.persistence.*
@@ -38,7 +34,7 @@ class User (
     @Column(name = "username", nullable = false)
     val username: String,
     @Column(name = "user_id_1", nullable = false)
-    val userParent: Int
+    val userParent: Int,
 
     /*
 
@@ -57,12 +53,11 @@ class User (
 
     */
 
-    /*
+
     @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
-    @JsonIgnore
-    val organs: Collection<Organ>,
-
+    val organs: Collection<Organ>
+    /*
     @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     @JsonIgnore

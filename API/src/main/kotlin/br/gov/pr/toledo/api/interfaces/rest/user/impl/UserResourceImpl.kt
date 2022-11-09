@@ -37,12 +37,29 @@ class UserResourceImpl (private val service : UserService) : UserResource {
     override fun findById(@PathVariable id: Int): ResponseEntity<UserDTO> =
         ResponseEntity.ok(service.findById(id))
 
+/*
     @PostMapping
     @ApiResponse(description = "ok.", responseCode = "201")
     @Operation(description = "Cria um novo usuário.")
     override fun create(@RequestBody user: User): ResponseEntity<Void> {
 
         val userCreated : User = service.create(user)
+        val uri = ServletUriComponentsBuilder.fromCurrentRequest()
+            .path("/{id}")
+            .buildAndExpand(userCreated.userId.user_id)
+            .toUri()
+
+        return ResponseEntity.created(uri).build()
+
+    }*/
+
+    @PostMapping
+    @ApiResponse(description = "ok.", responseCode = "201")
+    @Operation(description = "Cria um novo usuário.")
+    override fun create(@RequestBody userDTO: UserDTO): ResponseEntity<Void> {
+
+        //val user2 : User = userDTO.toModel()
+        val userCreated : User = service.create(userDTO.toModel())
         val uri = ServletUriComponentsBuilder.fromCurrentRequest()
             .path("/{id}")
             .buildAndExpand(userCreated.userId.user_id)

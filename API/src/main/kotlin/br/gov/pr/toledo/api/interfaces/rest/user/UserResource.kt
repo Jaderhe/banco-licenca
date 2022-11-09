@@ -8,5 +8,5 @@ interface UserResource {
 
     fun findById(id: Int): ResponseEntity<UserDTO>
 
-    fun create(user: User): ResponseEntity<Void>
+    fun create(user: UserDTO): ResponseEntity<Void>
 }
