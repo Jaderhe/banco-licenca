@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service
 
 @Service
 class UserServiceImpl (
-    //private val createUserUseCase: CreateUserUseCase,
+    private val createUserUseCase: CreateUserUseCase,
     private val repository : UserRepository
     ) : UserService {
     override fun list(): List<User> = repository.findAll()
@@ -25,7 +25,7 @@ class UserServiceImpl (
     }
 
     override fun create(user: User): User {
-        return repository.save(user)
+        return createUserUseCase.execute(user)
     }
 
 }

@@ -2,6 +2,7 @@ package br.gov.pr.toledo.api.interfaces.rest.user.impl
 
 import br.gov.pr.toledo.api.domain.user.model.User
 import br.gov.pr.toledo.api.domain.user.service.UserService
+import br.gov.pr.toledo.api.domain.user.usecases.CreateUserUseCase
 import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
 import br.gov.pr.toledo.api.interfaces.rest.user.UserResource
 import br.gov.pr.toledo.api.interfaces.rest.user.UserSummaryDTO
