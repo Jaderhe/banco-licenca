@@ -9,4 +9,6 @@ interface UserResource {
     fun findById(id: Int): ResponseEntity<UserDTO>
 
     fun create(user: UserDTO): ResponseEntity<Void>
+
+    fun delete(id: Int)
 }

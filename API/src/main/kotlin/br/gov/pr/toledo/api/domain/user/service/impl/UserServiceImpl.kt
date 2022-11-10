@@ -5,6 +5,7 @@ import br.gov.pr.toledo.api.domain.user.model.User
 import br.gov.pr.toledo.api.domain.user.repository.UserRepository
 import br.gov.pr.toledo.api.domain.user.service.UserService
 import br.gov.pr.toledo.api.domain.user.usecases.CreateUserUseCase
+import br.gov.pr.toledo.api.domain.user.usecases.DeleteUserUseCase
 import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
 import br.gov.pr.toledo.api.interfaces.rest.user.UserSummaryDTO
 import org.springframework.stereotype.Service
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Service
 @Service
 class UserServiceImpl (
     private val createUserUseCase: CreateUserUseCase,
+    private val deleteUserUseCase: DeleteUserUseCase,
     private val repository : UserRepository
     ) : UserService {
     override fun list(): List<User> = repository.findAll()
@@ -26,6 +28,10 @@ class UserServiceImpl (
 
     override fun create(user: User): User {
         return createUserUseCase.execute(user)
+    }
+
+    override fun delete(id: IdUser) {
+        deleteUserUseCase.execute(id)
     }
 
 }

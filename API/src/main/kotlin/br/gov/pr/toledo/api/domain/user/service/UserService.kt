@@ -17,6 +17,6 @@ interface UserService {
 
     fun create(user: User): User
 
-    //fun create(user: UserDTO): UserDTO
+    fun delete(id: IdUser)
 
 }
