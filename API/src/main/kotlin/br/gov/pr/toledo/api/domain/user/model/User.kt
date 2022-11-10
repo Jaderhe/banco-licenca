@@ -32,24 +32,6 @@ class User(
     @Column(name = "user_id_1", nullable = false)
     val userParent: Int,
 
-    /*
-
-
-    //Auto-relationship with User
-    @ManyToOne(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id_1", referencedColumnName = "user_id", nullable = true)
-    val userParent: User,
-
-    //Auto-relationship with User
-    @OneToMany(/*mappedBy = "userParent",*/ cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id", referencedColumnName = "user_id_1", nullable = true)
-    @JsonIgnoreProperties("userParent")
-    val users: Collection<User>,
-
-
-    */
-
-
     @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     val organs: Collection<Organ>

@@ -1,5 +1,5 @@
-package br.unipar.plano.application.configs
-/*
+package br.gov.pr.toledo.api.application.configs
+
 import io.swagger.v3.oas.models.ExternalDocumentation
 import io.swagger.v3.oas.models.OpenAPI
 import io.swagger.v3.oas.models.info.Info
@@ -12,12 +12,12 @@ class OpenApiConfigs {
     @Bean
     fun openApi() = OpenAPI().info(
         Info()
-            .title("Planos API - Unipar")
-            .description("API de exemplo implementada como trabalho da disciplina de Desenvolvimento BackEnd")
+            .title("Banco-Licenças - API")
+            .description("API para controle de licenças de software")
             .version("1.0.0")
     ).externalDocs(
         ExternalDocumentation()
             .description("Projeto Github")
-            .url("https://github.com/djonathanb/unipar-2021-trabalho-plano")
+            .url("https://github.com/jaderha/banco-licenca")
     )
-}*/
+}

@@ -8,7 +8,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: validate
-
   flyway:
     url: jdbc:postgresql://localhost:5432/LicenseDB
     user: ${spring.datasource.username}
