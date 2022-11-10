@@ -10,11 +10,11 @@ import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
 import org.springframework.stereotype.Service
 
 @Service
-class DeleteUserUseCaseImpl (private val repository : UserRepository) : DeleteUserUseCase {
+class DeleteUserUseCaseImpl (private val userRepository : UserRepository) : DeleteUserUseCase {
 
     override fun execute(id: IdUser) {
 
-        val user = repository.findById(id).orElseThrow { RuntimeException("User not found") }
-        return repository.delete(user)
+        val user = userRepository.findById(id).orElseThrow { RuntimeException("User not found") }
+        return userRepository.delete(user)
     }
 }

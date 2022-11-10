@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
+import org.springframework.web.bind.annotation.PutMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.ResponseStatus
@@ -25,12 +26,12 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder
 
 @RestController
 @RequestMapping("/users")
-class UserResourceImpl (private val service : UserService) : UserResource {
+class UserResourceImpl (private val userService : UserService) : UserResource {
     @GetMapping
     @ApiResponses(ApiResponse(description = "ok.", responseCode = "200"))
     @Operation(description = "Retorna todas os usuários cadastrados.")
-    override fun lista(): ResponseEntity<List<UserSummaryDTO>> =
-        ResponseEntity.ok(service.findAll())
+    override fun list(): ResponseEntity<List<UserSummaryDTO>> =
+        ResponseEntity.ok(userService.findAll())
 
 
     @GetMapping("/{id}")
@@ -40,7 +41,7 @@ class UserResourceImpl (private val service : UserService) : UserResource {
     )
     @Operation(description = "Retorna o usuário a partir do ID informado.")
     override fun findById(@PathVariable id: Int): ResponseEntity<UserDTO> =
-        ResponseEntity.ok(service.findById(id))
+        ResponseEntity.ok(userService.findById(id))
 
 
     @PostMapping
@@ -49,7 +50,7 @@ class UserResourceImpl (private val service : UserService) : UserResource {
     override fun create(@RequestBody userDTO: UserDTO): ResponseEntity<Void> {
 
         //val user2 : User = userDTO.toModel()
-        val userCreated : User = service.create(userDTO.toModel())
+        val userCreated : User = userService.create(userDTO.toModel())
         val uri = ServletUriComponentsBuilder.fromCurrentRequest()
             .path("/{id}")
             .buildAndExpand(userCreated.userId.user_id)
@@ -59,11 +60,18 @@ class UserResourceImpl (private val service : UserService) : UserResource {
 
     }
 
+    @PutMapping("/{id}")
+    @Operation(description = "Atualiza o usuário a partir do ID informado.")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    override fun update(@PathVariable id: Int, @RequestBody userDTO: UserDTO) {
+        userService.update(id = IdUser(id), userDTO = userDTO)
+    }
+
 
     @DeleteMapping("/{id}")
     @Operation(description = "Deleta um usuário.")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     override fun delete(@PathVariable("id") id: Int) {
-        service.delete(id = IdUser(id))
+        userService.delete(id = IdUser(id))
     }
 }

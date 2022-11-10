@@ -19,4 +19,6 @@ interface UserService {
 
     fun delete(id: IdUser)
 
+    fun update(id: IdUser, userDTO: UserDTO)
+
 }

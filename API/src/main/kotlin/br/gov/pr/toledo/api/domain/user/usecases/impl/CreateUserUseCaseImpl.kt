@@ -8,12 +8,12 @@ import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
 import org.springframework.stereotype.Service
 
 @Service
-class CreateUserUseCaseImpl (private val repository : UserRepository) : CreateUserUseCase {
+class CreateUserUseCaseImpl (private val userRepository : UserRepository) : CreateUserUseCase {
 
     override fun execute(user: User) : User {
-        if (repository.existsById(user.userId)) {
+        if (userRepository.existsById(user.userId)) {
             throw RuntimeException("User already exists")
         }
-        return repository.save(user)
+        return userRepository.save(user)
     }
 }

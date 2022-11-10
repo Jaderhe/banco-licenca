@@ -1,17 +1,13 @@
 package br.gov.pr.toledo.api.domain.user.model
 
-import br.gov.pr.toledo.api.domain.license.model.License
 import br.gov.pr.toledo.api.domain.organ.model.Organ
-import br.gov.pr.toledo.api.domain.provider.model.Provider
-import br.gov.pr.toledo.api.domain.software.model.Software
-import com.fasterxml.jackson.annotation.*
 import java.io.Serializable
 import java.time.LocalDate
 import javax.persistence.*
 
 @Entity
 @Table(name = "users")
-class User (
+class User(
     @EmbeddedId
     @Column(name = "user_id")
     val userId: IdUser,
@@ -26,7 +22,7 @@ class User (
     @Column(name = "permission", nullable = false)
     val permission: String,
     @Column(name = "lastlogin", nullable = true, columnDefinition = "TIMESTAMP")
-    val lastlogin: LocalDate?,
+    val lastLogin: LocalDate?,
     @Column(name = "created_at", nullable = false, columnDefinition = "TIMESTAMP")
     val createdAt: LocalDate,
     @Column(name = "updated_at", nullable = false, columnDefinition = "TIMESTAMP")
@@ -74,4 +70,59 @@ class User (
     val licenses: Collection<License>,*/
     ) : Serializable {
 
-    }
+        fun with(
+            userId: IdUser = this.userId,
+            name: String = this.name,
+            email: String = this.email,
+            isActive: Boolean = this.isActive,
+            permission: String = this.permission,
+            username: String = this.username,
+            userParent: Int = this.userParent,
+            lastLogin: LocalDate? = this.lastLogin,
+            createdAt: LocalDate = this.createdAt,
+            updatedAt: LocalDate = this.updatedAt,
+            password: String = this.password,
+            organs: Collection<Organ> = this.organs
+        ) = copy(
+            userId = userId,
+            name = name,
+            email = email,
+            isActive = isActive,
+            permission = permission,
+            username = username,
+            userParent = userParent,
+            lastLogin = lastLogin,
+            createdAt = createdAt,
+            updatedAt = updatedAt,
+            password = password,
+            organs = organs
+        )
+
+        private fun copy(
+            userId: IdUser = this.userId,
+            name: String = this.name,
+            email: String = this.email,
+            isActive: Boolean = this.isActive,
+            permission: String = this.permission,
+            username: String = this.username,
+            userParent: Int = this.userParent,
+            lastLogin: LocalDate? = this.lastLogin,
+            createdAt: LocalDate = this.createdAt,
+            updatedAt: LocalDate = this.updatedAt,
+            password: String = this.password,
+            organs: Collection<Organ> = this.organs
+        ) = User(
+            userId = userId,
+            name = name,
+            email = email,
+            isActive = isActive,
+            permission = permission,
+            username = username,
+            userParent = userParent,
+            lastLogin = lastLogin,
+            createdAt = createdAt,
+            updatedAt = updatedAt,
+            password = password,
+            organs = organs
+        )
+}
