@@ -49,7 +49,6 @@ class UserResourceImpl (private val userService : UserService) : UserResource {
     @Operation(description = "Cria um novo usuário.")
     override fun create(@RequestBody userDTO: UserDTO): ResponseEntity<Void> {
 
-        //val user2 : User = userDTO.toModel()
         val userCreated : User = userService.create(userDTO.toModel())
         val uri = ServletUriComponentsBuilder.fromCurrentRequest()
             .path("/{id}")
