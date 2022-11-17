@@ -3,8 +3,8 @@ package br.gov.pr.toledo.api.interfaces.rest.organ
 import br.gov.pr.toledo.api.domain.license.model.License
 import br.gov.pr.toledo.api.domain.organ.model.IdOrgan
 import br.gov.pr.toledo.api.domain.organ.model.Organ
-import br.gov.pr.toledo.api.domain.user.model.IdUser
-import br.gov.pr.toledo.api.domain.user.model.User
+import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
+import br.gov.pr.toledo.api.interfaces.rest.user.UserSummaryDTO
 import com.fasterxml.jackson.annotation.JsonIgnore
 import java.time.LocalDate
 
@@ -13,18 +13,10 @@ data class OrganDTO(
     val name : String,
     val createdAt : LocalDate,
     val updatedAt : LocalDate,
-    val user : User,
+    val user : UserSummaryDTO,
     @JsonIgnore
     val licenses : Collection<License> = emptyList()
 ) {
-    fun toModel() = Organ (
-        organId = this.organId,
-        name = this.name,
-        createdAt = this.createdAt,
-        updatedAt = this.updatedAt,
-        user = this.user,
-        licenses = this.licenses
-    )
 
     companion object {
         fun toDTO(organ: Organ) = OrganDTO(
@@ -32,10 +24,11 @@ data class OrganDTO(
             organ.name,
             organ.createdAt,
             organ.updatedAt,
-            organ.user,
+            UserSummaryDTO.toDTO(organ.user),
             organ.licenses
         )
     }
+
 }
 
 data class OrganSummaryDTO(
@@ -48,4 +41,25 @@ data class OrganSummaryDTO(
             name = organ.name
         )
     }
+}
+
+data class OrganSaveDTO(
+    val organId : IdOrgan,
+    val name : String,
+    val createdAt : LocalDate,
+    val updatedAt : LocalDate,
+    val user : UserDTO,
+    @JsonIgnore
+    val licenses : Collection<License> = emptyList()
+) {
+
+    fun toModel() = Organ (
+        organId = this.organId,
+        name = this.name,
+        createdAt = this.createdAt,
+        updatedAt = this.updatedAt,
+        licenses = this.licenses,
+        user = this.user.toModel()
+    )
+
 }

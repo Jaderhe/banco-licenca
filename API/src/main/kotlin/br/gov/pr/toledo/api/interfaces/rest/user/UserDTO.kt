@@ -3,6 +3,8 @@ package br.gov.pr.toledo.api.interfaces.rest.user
 import br.gov.pr.toledo.api.domain.organ.model.Organ
 import br.gov.pr.toledo.api.domain.user.model.IdUser
 import br.gov.pr.toledo.api.domain.user.model.User
+import br.gov.pr.toledo.api.domain.user.repository.UserRepository
+import br.gov.pr.toledo.api.domain.user.service.UserService
 import com.fasterxml.jackson.annotation.JsonIgnore
 import java.time.LocalDate
 
@@ -62,6 +64,7 @@ data class UserSummaryDTO(
     val permission : String,
     val username : String
 ) {
+
     companion object {
         fun toDTO(user: User) = UserSummaryDTO(
             userId = user.userId,

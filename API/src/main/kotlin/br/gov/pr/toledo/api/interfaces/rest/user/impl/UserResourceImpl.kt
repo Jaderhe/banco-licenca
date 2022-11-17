@@ -3,25 +3,15 @@ package br.gov.pr.toledo.api.interfaces.rest.user.impl
 import br.gov.pr.toledo.api.domain.user.model.IdUser
 import br.gov.pr.toledo.api.domain.user.model.User
 import br.gov.pr.toledo.api.domain.user.service.UserService
-import br.gov.pr.toledo.api.domain.user.usecases.CreateUserUseCase
 import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
 import br.gov.pr.toledo.api.interfaces.rest.user.UserResource
 import br.gov.pr.toledo.api.interfaces.rest.user.UserSummaryDTO
-import br.gov.pr.toledo.api.interfaces.rest.user.UserSummaryDTO.Companion.toDTO
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.responses.ApiResponse
 import io.swagger.v3.oas.annotations.responses.ApiResponses
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
-import org.springframework.web.bind.annotation.DeleteMapping
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.PathVariable
-import org.springframework.web.bind.annotation.PostMapping
-import org.springframework.web.bind.annotation.PutMapping
-import org.springframework.web.bind.annotation.RequestBody
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.ResponseStatus
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder
 
 @RestController

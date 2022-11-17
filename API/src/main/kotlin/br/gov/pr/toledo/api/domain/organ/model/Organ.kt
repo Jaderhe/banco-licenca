@@ -19,7 +19,7 @@ class Organ (
     @Column(name = "updated_at", nullable = false, columnDefinition = "TIMESTAMP")
     val updatedAt: LocalDate,
 
-    @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
+    @OneToMany(cascade = [CascadeType.ALL], fetch = FetchType.LAZY)
     @JoinColumn(name = "organ_id")
     val licenses: Collection<License>,
 
@@ -27,13 +27,35 @@ class Organ (
     @JoinColumn(name = "user_id")
     val user: User
     ) : Serializable {
+        fun with(
+            organId: IdOrgan = this.organId,
+            name: String = this.name,
+            createdAt: LocalDate = this.createdAt,
+            updatedAt: LocalDate = this.updatedAt,
+            licenses: Collection<License> = this.licenses,
+            user: User = this.user
+        ) = copy(
+            organId = organId,
+            name = name,
+            createdAt = createdAt,
+            updatedAt = updatedAt,
+            licenses = licenses,
+            user = user
+        )
 
-    private fun organ (
-        organId: IdOrgan,
-        name: String,
-        createdAt: LocalDate,
-        updatedAt: LocalDate,
-        licenses: Collection<License>,
-        user: User
-    ) = Organ(organId, name, createdAt, updatedAt, licenses, user)
-}
+        private fun copy(
+            organId: IdOrgan,
+            name: String,
+            createdAt: LocalDate,
+            updatedAt: LocalDate,
+            licenses: Collection<License>,
+            user: User
+        ) = Organ(
+            organId = organId,
+            name = name,
+            createdAt = createdAt,
+            updatedAt = updatedAt,
+            licenses = licenses,
+            user = user
+        )
+    }

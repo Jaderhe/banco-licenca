@@ -32,7 +32,7 @@ class User(
     @Column(name = "user_id_1", nullable = false)
     val userParent: Int,
 
-    @OneToMany(cascade = [CascadeType.PERSIST], fetch = FetchType.LAZY)
+    @OneToMany(cascade = [CascadeType.ALL], fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     val organs: Collection<Organ>
     /*
