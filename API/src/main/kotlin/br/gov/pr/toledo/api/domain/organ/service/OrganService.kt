@@ -14,4 +14,6 @@ interface OrganService {
     fun findById(id: IdOrgan): Organ
 
     fun findById(id: Int): OrganDTO
+
+    fun create(organ: Organ): Organ
 }

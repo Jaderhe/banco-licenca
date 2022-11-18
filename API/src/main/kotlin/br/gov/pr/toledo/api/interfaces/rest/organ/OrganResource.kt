@@ -7,4 +7,6 @@ interface OrganResource {
 
     fun findById(id: Int): ResponseEntity<OrganDTO>
 
+    fun create(organ: OrganSaveDTO): ResponseEntity<Void>
+
 }
