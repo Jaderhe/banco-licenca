@@ -9,4 +9,6 @@ interface OrganResource {
 
     fun create(organ: OrganSaveDTO): ResponseEntity<Void>
 
+    fun delete(id: Int)
+
 }
