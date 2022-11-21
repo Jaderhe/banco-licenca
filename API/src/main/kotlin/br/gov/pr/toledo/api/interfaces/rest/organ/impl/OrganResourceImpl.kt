@@ -2,12 +2,11 @@ package br.gov.pr.toledo.api.interfaces.rest.organ.impl
 
 import br.gov.pr.toledo.api.domain.organ.model.Organ
 import br.gov.pr.toledo.api.domain.organ.service.OrganService
-import br.gov.pr.toledo.api.domain.user.model.User
+import br.gov.pr.toledo.api.domain.user.service.UserService
 import br.gov.pr.toledo.api.interfaces.rest.organ.OrganDTO
 import br.gov.pr.toledo.api.interfaces.rest.organ.OrganResource
 import br.gov.pr.toledo.api.interfaces.rest.organ.OrganSaveDTO
 import br.gov.pr.toledo.api.interfaces.rest.organ.OrganSummaryDTO
-import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.responses.ApiResponse
 import io.swagger.v3.oas.annotations.responses.ApiResponses
@@ -17,7 +16,10 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder
 
 @RestController
 @RequestMapping("/organs")
-class OrganResourceImpl (private val organService: OrganService) : OrganResource {
+class OrganResourceImpl (private val organService: OrganService,
+                         private val userService: UserService
+) :
+    OrganResource {
     @GetMapping
     @ApiResponses(ApiResponse(description = "ok.", responseCode = "200"))
     @Operation(description = "Retorna todas as secretarias cadastradas.")
@@ -38,7 +40,7 @@ class OrganResourceImpl (private val organService: OrganService) : OrganResource
     @Operation(description = "Cria uma nova secretaria.")
     override fun create(@RequestBody organSaveDTO: OrganSaveDTO): ResponseEntity<Void> {
 
-        val organCreated : Organ = organService.create(organSaveDTO.toModel())
+        val organCreated : Organ = organService.create(organSaveDTO.toModel(userService))
         val uri = ServletUriComponentsBuilder.fromCurrentRequest()
             .path("/{id}")
             .buildAndExpand(organCreated.organId.organ_id)

@@ -75,4 +75,6 @@ data class UserSummaryDTO(
             username = user.username
         )
     }
+
+    fun toModel(userService: UserService): User = userService.findById(userId)
 }

@@ -3,6 +3,8 @@ package br.gov.pr.toledo.api.interfaces.rest.organ
 import br.gov.pr.toledo.api.domain.license.model.License
 import br.gov.pr.toledo.api.domain.organ.model.IdOrgan
 import br.gov.pr.toledo.api.domain.organ.model.Organ
+import br.gov.pr.toledo.api.domain.organ.service.OrganService
+import br.gov.pr.toledo.api.domain.user.service.UserService
 import br.gov.pr.toledo.api.interfaces.rest.user.UserDTO
 import br.gov.pr.toledo.api.interfaces.rest.user.UserSummaryDTO
 import com.fasterxml.jackson.annotation.JsonIgnore
@@ -48,18 +50,17 @@ data class OrganSaveDTO(
     val name : String,
     val createdAt : LocalDate,
     val updatedAt : LocalDate,
-    val user : UserDTO,
+    val user : UserSummaryDTO,
     @JsonIgnore
     val licenses : Collection<License> = emptyList()
 ) {
 
-    fun toModel() = Organ (
+    fun toModel(userService: UserService) = Organ (
         organId = this.organId,
         name = this.name,
         createdAt = this.createdAt,
         updatedAt = this.updatedAt,
         licenses = this.licenses,
-        user = this.user.toModel()
+        user = userService.findById(this.user.userId)
     )
-
 }
