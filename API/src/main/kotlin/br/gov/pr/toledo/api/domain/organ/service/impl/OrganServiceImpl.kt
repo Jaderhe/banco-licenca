@@ -6,7 +6,10 @@ import br.gov.pr.toledo.api.domain.organ.repository.OrganRepository
 import br.gov.pr.toledo.api.domain.organ.service.OrganService
 import br.gov.pr.toledo.api.domain.organ.usecases.CreateOrganUseCase
 import br.gov.pr.toledo.api.domain.organ.usecases.DeleteOrganUseCase
+import br.gov.pr.toledo.api.domain.organ.usecases.UpdateOrganUseCase
+import br.gov.pr.toledo.api.domain.user.service.UserService
 import br.gov.pr.toledo.api.interfaces.rest.organ.OrganDTO
+import br.gov.pr.toledo.api.interfaces.rest.organ.OrganSaveDTO
 import br.gov.pr.toledo.api.interfaces.rest.organ.OrganSummaryDTO
 import org.springframework.stereotype.Service
 
@@ -14,7 +17,9 @@ import org.springframework.stereotype.Service
 class OrganServiceImpl (
     private val createOrganUseCase: CreateOrganUseCase,
     private val deleteOrganUseCase: DeleteOrganUseCase,
-    private val organRepository: OrganRepository
+    private val updateOrganUseCase: UpdateOrganUseCase,
+    private val organRepository: OrganRepository,
+    private val userService: UserService
     ) : OrganService {
 
     override fun list(): List<Organ> = organRepository.findAll()
@@ -30,4 +35,16 @@ class OrganServiceImpl (
     override fun create(organ: Organ): Organ =  createOrganUseCase.execute(organ)
 
     override fun delete(id: IdOrgan) = deleteOrganUseCase.execute(id)
+
+    override fun update(id: IdOrgan, organSaveDTO: OrganSaveDTO) {
+        updateOrganUseCase.execute(id) {
+            it.with(
+                name = organSaveDTO.name,
+                createdAt = organSaveDTO.createdAt,
+                updatedAt = organSaveDTO.updatedAt,
+                licenses = organSaveDTO.licenses,
+                user = organSaveDTO.user.toModel(userService)
+            )
+        }
+    }
 }

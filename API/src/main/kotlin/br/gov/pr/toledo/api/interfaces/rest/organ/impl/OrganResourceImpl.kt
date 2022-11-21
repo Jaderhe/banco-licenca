@@ -39,9 +39,9 @@ class OrganResourceImpl (private val organService: OrganService,
     @PostMapping
     @ApiResponse(description = "ok.", responseCode = "201")
     @Operation(description = "Cria uma nova secretaria.")
-    override fun create(@RequestBody organSaveDTO: OrganSaveDTO): ResponseEntity<Void> {
+    override fun create(@RequestBody organ: OrganSaveDTO): ResponseEntity<Void> {
 
-        val organCreated : Organ = organService.create(organSaveDTO.toModel(userService))
+        val organCreated : Organ = organService.create(organ.toModel(userService))
         val uri = ServletUriComponentsBuilder.fromCurrentRequest()
             .path("/{id}")
             .buildAndExpand(organCreated.organId.organ_id)
@@ -49,6 +49,13 @@ class OrganResourceImpl (private val organService: OrganService,
 
         return ResponseEntity.created(uri).build()
 
+    }
+
+    @PutMapping("/{id}")
+    @Operation(description = "Atualiza a secretaria a partir do ID informado.")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    override fun update(@PathVariable id: Int, @RequestBody organSaveDTO: OrganSaveDTO) {
+        organService.update(id = IdOrgan(id), organSaveDTO = organSaveDTO)
     }
 
     @DeleteMapping("/{id}")
